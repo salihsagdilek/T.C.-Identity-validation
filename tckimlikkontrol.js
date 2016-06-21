@@ -1,9 +1,7 @@
 ;(function( window, document, undefined ) {
     if ( window.jQuery ) {
         if ( window.jQuery.validator ) {
-            window.jQuery.validator.addMethod('tcno', function( value ) {
-                return tcKimlikNumarasiKontrol(value);
-            });
+            window.jQuery.validator.addMethod('tcno', tcKimlikNoKontrol);
         }
     }
     function tcKimlikNoKontrol( value ) {
