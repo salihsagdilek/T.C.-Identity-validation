@@ -1,21 +1,21 @@
 # javascript ve jQuery Validation Plugin T.C. kimlik numarasi kontrol 
 
 ###purejs
-```
+```javascript
 tcKimlikNumarasiKontrol(12345678910)
 ```
 
 ###jQuery Validation
 
 #####declaratively
-```
+```html
   <input type="text" name="tcno" value=""
       data-rule-tcno="true"
       data-msg-tcno="gecersiz tc no"
       required />
 ```
 #####programmatically
-```
+```javascript
   <input type="text" name="kimlikno" value=""
       required />
 
