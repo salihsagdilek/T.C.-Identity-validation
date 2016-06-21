@@ -1,6 +1,6 @@
 # javascript ve jQuery Validation Plugin T.C. kimlik numarasi kontrol 
 
-###purejs
+###vanilla js
 ```javascript
 tcKimlikNumarasiKontrol(12345678910)
 ```
