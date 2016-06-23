@@ -1,8 +1,6 @@
 ;(function( window, document, undefined ) {
-    if ( window.jQuery ) {
-        if ( window.jQuery.validator ) {
-            window.jQuery.validator.addMethod('tcno', tcKimlikNoKontrol);
-        }
+    if ( window.jQuery && window.jQuery.validator) {
+        window.jQuery.validator.addMethod('tcno', tcKimlikNoKontrol);
     }
     function tcKimlikNoKontrol( value ) {
         value += '';
