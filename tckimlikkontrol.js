@@ -1,5 +1,5 @@
 ;(function( window, document, undefined ) {
-    if ( window.jQuery && window.jQuery.validator) {
+    if ( window.jQuery && window.jQuery.validator ) {
         window.jQuery.validator.addMethod('tcno', tcKimlikNoKontrol);
     }
     function tcKimlikNoKontrol( value ) {
