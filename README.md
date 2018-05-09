@@ -2,14 +2,14 @@
 
 ### vanilla js
 ```javascript
-tcKimlikNumarasiKontrol(12345678910)
+TCIdentity(12345678910)
 ```
 
 ### jQuery Validation
 
 ##### declaratively
 ```html
-  <input type="text" name="tcno" value=""
+  <input type="text" name="TCIdentity" value=""
       data-rule-tcno="true"
       data-msg-tcno="gecersiz tc no"
       required />
@@ -25,12 +25,12 @@ $(function() {
   $("#test").validate({
       rules: {
           kimlikno: {
-            tcno: true
+            TCIdentity: true
           },
       },
       messages: {
           kimlikno: {
-            tcno:"gecersiz tc no"
+            TCIdentity:"gecersiz tc no"
           }
       }
   });
